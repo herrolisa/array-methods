@@ -54,3 +54,10 @@ orderedValues.unshift(1, 2, 3);
 console.log(orderedValues);
 var orderedValuesNewLength = orderedValues.length;
 console.log(orderedValuesNewLength);
+
+var randomThingsArray = genericNumberArray.concat(colors);
+console.log(randomThingsArray);
+var jackInTheBox = [{takeOut: "Oreo Milkshake"}];
+var mcdonalds =  [{takeOut: "Happy Meal"}];
+var updatedOrders = orderQueue.concat(jackInTheBox.concat(mcdonalds));
+console.log(updatedOrders);
