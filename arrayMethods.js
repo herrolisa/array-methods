@@ -33,3 +33,12 @@ phoneNumber.reverse();
 var nextOrder = orderQueue.shift();
 console.log(nextOrder);
 console.log(orderQueue);
+
+mixedNums.sort(function(a,b){
+  if (a>b) return 1;
+  if (a<b) return -1;
+  return 0;
+});
+console.log(mixedNums);
+mixedWords.sort();
+console.log(mixedWords);
