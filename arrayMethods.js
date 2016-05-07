@@ -39,3 +39,9 @@ console.log(mixedNums);
 mixedWords.sort();
 console.log(mixedWords);
 
+var notFruit = fruitCollection.splice(1,3);
+console.log(notFruit);
+console.log(fruitCollection);
+gemBox.splice(5,2);
+gemBox.splice(-4,4);
+console.log(gemBox);
