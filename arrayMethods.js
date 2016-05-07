@@ -71,3 +71,6 @@ var favoriteFriends = friends.slice(1, 3);
 console.log(favoriteFriends);
 var owesMoney = friends.slice(3);
 console.log(owesMoney);
+
+var monthNameString = monthNames.toString();
+console.log(monthNameString);
