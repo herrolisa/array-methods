@@ -22,3 +22,7 @@ console.log(nameArray);
 
 genericNumberArray.push(6,7,8,9,10);
 console.log(genericNumberArray);
+
+var popResult = colors.pop();
+console.log(popResult);
+console.log(colors);
