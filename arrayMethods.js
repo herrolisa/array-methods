@@ -47,7 +47,7 @@ gemBox.splice(-4, 4);
 console.log(gemBox);
 upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
 console.log(upToTen);
-brownOnly.splice(1, 5, "brown", "brown", "brown");
+brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
 console.log(brownOnly);
 
 orderedValues.unshift(1, 2, 3);
@@ -57,8 +57,8 @@ console.log(orderedValuesNewLength);
 
 var randomThingsArray = genericNumberArray.concat(colors);
 console.log(randomThingsArray);
-var jackInTheBox = [{takeOut: "Oreo Milkshake"}];
-var mcdonalds =  [{takeOut: "Happy Meal"}];
+var jackInTheBox = [{takeOut: 'Oreo Milkshake'}];
+var mcdonalds =  [{takeOut: 'Happy Meal'}];
 var updatedOrders = orderQueue.concat(jackInTheBox.concat(mcdonalds));
 console.log(updatedOrders);
 
@@ -74,3 +74,8 @@ console.log(owesMoney);
 
 var monthNameString = monthNames.toString();
 console.log(monthNameString);
+
+var favoriteColor = colors.indexOf('Red');
+console.log(favoriteColor);
+var favoriteEvenNumber = mixedNums.indexOf(76);
+console.log(favoriteEvenNumber);
