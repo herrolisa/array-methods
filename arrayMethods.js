@@ -26,3 +26,6 @@ console.log(genericNumberArray);
 var popResult = colors.pop();
 console.log(popResult);
 console.log(colors);
+
+scrambledWords.reverse();
+phoneNumber.reverse();
