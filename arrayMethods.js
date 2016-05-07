@@ -29,3 +29,7 @@ console.log(colors);
 
 scrambledWords.reverse();
 phoneNumber.reverse();
+
+var nextOrder = orderQueue.shift();
+console.log(nextOrder);
+console.log(orderQueue);
