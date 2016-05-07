@@ -61,3 +61,8 @@ var jackInTheBox = [{takeOut: "Oreo Milkshake"}];
 var mcdonalds =  [{takeOut: "Happy Meal"}];
 var updatedOrders = orderQueue.concat(jackInTheBox.concat(mcdonalds));
 console.log(updatedOrders);
+
+var sentence = scrambledWords.join(" ");
+console.log(sentence);
+var myFruits = fruitCollection.join(" + ");
+console.log(myFruits);
